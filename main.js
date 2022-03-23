@@ -14,8 +14,6 @@ function createWindow(){
     ventana.loadFile('renderer.html')
 }
 
-
-
 app.whenReady().then(createWindow)
 
 
