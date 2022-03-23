@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
     <title>Actividad 4</title>
-</head>
-<body>
-    <label>tipo</label>
-    <input type="text" id = "tipo"/>
-    <br />
-    <label>filtro</label>
-    <input type="text" id="filtro"/>
-    <br />
-    <button id="consultar">Consultar</button>
+  </head>
+  <body class="pt-3 pl-3">
+      
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Tipo</span>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Tipo"
+        id="tipo"
+      />
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Filtro</span>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Filtro"
+        id="filtro"
+      />
+    </div>
+
+    <button id="consultar" class="btn btn-primary">Consultar</button>
     <br />
     <img id="respuesta" />
 
-    <script type="text/javascript"src="renderer.js"></script>
-</body>
+    <script type="text/javascript" src="renderer.js"></script>
+  </body>
 </html>
