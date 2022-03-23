@@ -15,7 +15,7 @@
   </head>
   <body class="pt-3 pl-3">
       
-    <div class="input-group mb-3">
+    <!-- <div class="input-group mb-3">
       <span class="input-group-text" id="basic-addon1">Filtro</span>
       <input
         type="text"
@@ -23,7 +23,21 @@
         placeholder="Filtro"
         id="filtro"
       />
-    </div>
+    </div> -->
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Filtro</span>
+        <select class="form-select" id="filtro">
+            <option value="blur">blur</option>
+            <option value="mono">mono</option>
+            <option value="sepia" selected>sepia</option>
+            <option value="negative">negative</option>
+            <option value="paint">paint</option>
+            <option value="pixel">pixel</option>
+          </select>
+      </div>
+
+    
 
     <div class="input-group mb-3">
       <span class="input-group-text" id="basic-addon1">Alto</span>
