@@ -15,17 +15,6 @@
   </head>
   <body class="pt-3 pl-3">
       
-
-    <div class="input-group mb-3">
-      <span class="input-group-text" id="basic-addon1">Tipo</span>
-      <input
-        type="text"
-        class="form-control"
-        placeholder="Tipo"
-        id="tipo"
-      />
-    </div>
-
     <div class="input-group mb-3">
       <span class="input-group-text" id="basic-addon1">Filtro</span>
       <input
@@ -36,7 +25,29 @@
       />
     </div>
 
-    <button id="consultar" class="btn btn-primary">Consultar</button>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Alto</span>
+      <input
+        type="number"
+        min="100"
+        class="form-control"
+        placeholder="Ingrese un numero mayor a 100"
+        id="alto"
+      />
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Ancho</span>
+      <input
+        type="number"
+        min="100"
+        class="form-control"
+        placeholder="Ingrese un numero mayor a 100"
+        id="ancho"
+      />
+    </div>
+
+    <button id="consultar" class="btn btn-primary">Ancho</button>
     <br />
     <img id="respuesta" />
 
