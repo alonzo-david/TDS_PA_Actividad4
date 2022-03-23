@@ -5,8 +5,8 @@ const { ipcMain } = require('electron')
 var ventana
 function createWindow(){
     ventana = new BrowserWindow({
-        width: 500,
-        height: 500,
+        width: 650,
+        height: 650,
         webPreferences: {
             preload: path.join(app.getAppPath(),'preload.js')
         }
