@@ -49,7 +49,7 @@ function realizarSolicitud() {
         .then(gato => {
             console.log(gato)
             imagen_respuesta.setAttribute('src', `https://cataas.com/${gato.url}`)
-            boton_editar.innerHTML = gato.id
+            //boton_editar.innerHTML = gato.id
         })
 }
 
